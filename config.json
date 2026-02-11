@@ -1,0 +1,7 @@
+{
+  "name": "dockerrunserver",
+  "source": "src",
+  "resources": "resources",
+  "buildscript": "build.kts",
+  "readme": "README.md"
+}
