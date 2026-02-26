@@ -22,9 +22,9 @@ if [ ! -f "$JAR_PATH" ]; then
     chmod +x "$COURSIER_PATH"
   fi
 
-  echo "Fetching kompile-cli:kompile-cli:0.0.2 from https://kotlin.directory/..."
+  echo "Fetching kompile.cli:kompile-cli:0.0.14 from https://kotlin.directory/..."
   # Fetch all dependencies into a classpath
-  CLASSPATH=$("$COURSIER_PATH" fetch --repository https://kotlin.directory/ --repository central kompile-cli:kompile-cli:0.0.2 --classpath)
+  CLASSPATH=$("$COURSIER_PATH" fetch --repository https://kotlin.directory/ --repository central kompile.cli:kompile-cli:0.0.14 --classpath)
 
   # Create a launcher script
   cat > "$JAR_PATH" <<'LAUNCHER_EOF'
