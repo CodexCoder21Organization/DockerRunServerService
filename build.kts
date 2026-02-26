@@ -12,8 +12,8 @@ val dependencies = resolveDependencies(
     MavenPrebuilt("dockerrun.api:docker-run-api:0.0.1"),
     MavenPrebuilt("dockerrun.embedded:docker-run-embedded:0.0.1"),
     // UrlResolver and UrlProtocol
-    MavenPrebuilt("foundation.url:resolver:0.0.295"),
-    MavenPrebuilt("foundation.url:protocol:0.0.165"),
+    MavenPrebuilt("foundation.url:resolver:0.0.362"),
+    MavenPrebuilt("foundation.url:protocol:0.0.255"),
     // SJVM for stdlib JAR (needed for bytecode responses)
     MavenPrebuilt("net.javadeploy.sjvm:avianStdlibHelper-jvm:0.0.26"),
     // Clock abstraction (required by UrlProtocol)
@@ -22,7 +22,7 @@ val dependencies = resolveDependencies(
     MavenPrebuilt("io.libp2p:jvm-libp2p:1.2.2-RELEASE"),
     MavenPrebuilt("org.jetbrains.kotlin:kotlin-reflect:1.9.22"),
     MavenPrebuilt("community.kotlin.rpc:protocol-api:0.0.2"),
-    MavenPrebuilt("community.kotlin.rpc:protocol-impl:0.0.11"),
+    MavenPrebuilt("community.kotlin.rpc:protocol-impl:0.0.14"),
     MavenPrebuilt("com.google.protobuf:protobuf-java:3.25.1"),
     MavenPrebuilt("tech.pegasys:noise-java:22.1.0"),
     // JSON
