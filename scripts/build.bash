@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 # Build script for modules using kompile-cli.
 # Requires a build rule as the first argument.
 

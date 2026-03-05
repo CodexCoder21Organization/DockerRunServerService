@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 # Test script for running kompile tests.
 
 SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
